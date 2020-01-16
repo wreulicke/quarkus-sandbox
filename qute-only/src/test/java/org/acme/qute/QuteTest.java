@@ -1,14 +1,12 @@
 package org.acme.qute;
 
 import io.quarkus.qute.Engine;
-import io.quarkus.qute.EvalContext;
 import io.quarkus.qute.Results;
 import io.quarkus.qute.ValueResolver;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.CompletionStage;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
