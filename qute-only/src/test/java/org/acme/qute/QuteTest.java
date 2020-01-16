@@ -29,8 +29,6 @@ public class QuteTest {
 		};
 		final Engine engine = Engine.builder()
 				.addDefaults()
-				.addDefaultSectionHelpers()
-				.addDefaultValueResolvers()
 				.addValueResolver(valueResolver)
 				.build();
 		final String content = engine.parse("{name} は {price} 円です")
